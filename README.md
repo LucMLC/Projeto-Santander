@@ -5,4 +5,4 @@
 <br>
 <p> Este projeto é somente uma tela desenvolvida para desktop, baseada em uma das versões do site do Banco Santander. </p>
 <a href="https://lucmlc.github.io/Projeto-positive../">Site publicado</a>
-<a><img src="https://github.com/LucMLC/Projeto-positive../blob/main/assets/Design%20sem%20nome%20(1).png?raw=true"> </a>
+<a><img src="https://github.com/LucMLC/Projeto-Santander/blob/main/img/Design%20sem%20nome%20(2).png?raw=true"> </a>
