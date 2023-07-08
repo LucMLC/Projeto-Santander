@@ -1,0 +1,204 @@
+* {
+    /* o asterisco seleciona tudo*/
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin-bottom: 50px;
+}
+
+.caixa1 {
+    padding: 25px;
+    /* dá espaçamento entre as coisas faz se afastar*/
+    width: auto;
+
+}
+
+.oque-procura {
+    margin-left: 50px;
+    font-size: 15px;
+    border: 0px;
+    outline: 0;
+    /*Remove a borda do input*/
+    border-bottom: 2px solid rgb(200, 200, 200);
+    width: 250px;
+    display: inline;
+}
+
+.lupinha{
+    cursor: pointer;
+}
+
+.login-fisico {
+    text-align: justify;
+    margin: 0;
+    display: inline;
+    margin-left: 15px;
+
+}
+
+.login-juridico {
+    text-align: justify;
+    margin: 0;
+    display: inline;
+    margin-left: 15px;
+}
+
+.insira-seu-cpf {
+    margin-left: 5px;
+}
+
+.insira-seu-CNPJ {
+    margin-left: 5px;
+}
+
+.lupa {
+    width: 20px;
+}
+
+.oque-procura::placeholder {
+    color: rgb(110, 103, 103);
+    font-weight: bold;
+    border-bottom: 300px;
+
+
+}
+
+.logo {
+    width: 130px;
+    /*LARGURA*/
+}
+
+.para-voce {
+    color: red;
+    margin-left: 40px;
+    /*da margem do lado esquerdo*/
+    font-size: 15px;
+    /*tamanho da fonte*/
+    cursor: pointer;
+    /* muda o estilo do mouse*/
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.para-voce:hover
+
+/* hover é um evento ou seja cada vez que passo o mouse é um evento, ele serve 
+para excutar o parametro somente quando eu passar o mouse*/
+    {
+    text-decoration: underline;
+    /* deixa o texto sublinhado*/
+}
+
+.empresa:hover {
+    text-decoration: underline;
+    /* deixa o txto sublinhado*/
+}
+
+
+.empresa {
+    color: #222;
+    /*troca a cor do texto*/
+    margin-left: 40px;
+    /*da margem do lado esquerdo*/
+    font-size: 15px;
+    /*tamanho da fonte*/
+    font-weight: 700;
+    /*grossura da da letra*/
+    cursor: pointer;
+    /* muda o estilo do mouse*/
+    font-family: sans-serif;
+    /* muda o estilo da fonte*/
+}
+
+h3 {
+    margin-left: 150px;
+    margin-top: 50px;
+    /*margem em cima*/
+    font-size: 30px;
+}
+
+.img-fundo {
+    width: 100%;
+    /*altera a largura da pagina, colocando 100% acompanha a pagina dando zoom*/
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    /* Serve para justificar o item tanto p esquerda quanto p direita*/
+    margin-top: 80px;
+    gap: 30px;
+
+
+}
+
+li {
+    height: 190px;
+    /*Altura do elemento*/
+    width: 150px;
+    height: 150px;
+    box-shadow: rgb(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    padding-top: 5px;
+    display: inline-block;
+    /* Esta função bota um ao lado do outro, ou seja uma fusao do inline com o block*/
+    margin-bottom: 30px;
+
+}
+
+p {
+    text-align: center;
+    /* parametro para centralizar somente text*/
+    margin-top: 20px;
+
+}
+
+.icon-abra-sua-conta {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* o display é sempre inline ou seja sempre deixa outro item ficae na mesma linha, quando uso block eu automaticamente jogo ele para 
+    prixima lnha*/
+
+}
+
+.icon-peca-seu-cartao {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 40px;
+}
+
+.capitalgiro {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 40px;
+}
+
+.pagamentos {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 40px;
+}
+
+.icon-maquina-getnet {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 40px;
+}
+
+.icon-renegocie-sua-divida {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 40px;
+
+}
+
